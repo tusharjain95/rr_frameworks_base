@@ -26,7 +26,13 @@
 
   <!-- Screenrecord -->
   <java-symbol type="bool" name="config_enableScreenrecordChord" />
+  
+  <java-symbol type="integer" name="onbootboost_duration" />
+  <java-symbol type="array" name="onbootboost_param_value" />
 
+  <java-symbol type="array" name="qboost_strong_param_value" />
+  <java-symbol type="array" name="qboost_weak_param_value" />
+  <java-symbol type="integer" name="fpunlockboost_duration" />
   <!-- AOKP custom system animations -->
   <java-symbol type="string" name="action_null"/>
   <java-symbol type="string" name="animation_fade"/>

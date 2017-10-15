@@ -44,6 +44,17 @@
     <!-- Default value for led color when battery is really fully charged -->
     <integer name="config_notificationsBatteryReallyFullARGB">0xFF00FF00</integer>
 
+    <!-- Extended Boosts for QPerformance -->
+    <!-- Duration of the boost in seconds -->
+    <integer name="onbootboost_duration">30</integer>
+    <integer-array name="onbootboost_param_value"/>
+    <integer-array name="qboost_strong_param_value"/>
+    <integer-array name="qboost_weak_param_value"/>
+
+    <!-- Boost parameters which get passed to QPerformance -->
+    <integer-array name="keypressboost_strong_param_value"/>
+    <integer-array name="keypressboost_weak_param_value"/>
+    <integer name="fpunlockboost_duration">1200</integer>
     <bool name="single_hand_mode">true</bool>
 
     <!-- True if the notifications should dynamically tint the app icon and app title -->
